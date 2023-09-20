@@ -12,6 +12,11 @@ public class DesafioQuatro {
         double notaC = scanner.nextDouble();
 
         double mediaCalc = (notaA * 2 + notaB * 3 + notaC * 5) / 10;
-        System.out.println("A media final é " + mediaCalc);
+
+        if (mediaCalc >= 6){
+            System.out.println("A sua media final é: " +mediaCalc+ " Parabens por sua media!");
+        }else {
+            System.out.println("A sua media final é " +mediaCalc+ " Talvez na proxima voce se da melhor ;) ");
+        }
     }
 }
