@@ -2,7 +2,7 @@ package com.example.demo;
 
 import java.util.Scanner;
 
-public class Main {
+public class DesafioDois {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite a sua idade:");
