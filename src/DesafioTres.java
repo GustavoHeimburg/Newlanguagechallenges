@@ -7,9 +7,9 @@ public class DesafioTres {
         System.out.println("Digite um numero: ");
         int num = scanner.nextInt();
 
-        for (int i = 0; i<= num; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i + " é par");
+        for (int x = 0; x<= num; x++) {
+            if (x % 2 == 0) {
+                System.out.println(x + " é par");
             }
         }
     }

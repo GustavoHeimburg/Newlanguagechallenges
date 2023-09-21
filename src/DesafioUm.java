@@ -19,8 +19,6 @@ public class DesafioUm {
         }else {
             System.out.println("O aluno foi reprovado!");
         }
-
-
     }
 }
 
