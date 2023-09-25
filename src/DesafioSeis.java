@@ -14,16 +14,17 @@ public class DesafioSeis {
                 System.out.println(x + " é impar");
             }
         }
-
-        System.out.println("Digite um numero positivo ou negativo:");
+        System.out.println("Digite um numero positivo ou negativo :");
         int num2 = scanner.nextInt();
 
-        if (num2 > 0) {
-            System.out.println(num2 + " é positivo");
-        } else if (num2 < 0) {
-            System.out.println(num2 + " é negativo");
-        } else {
-            System.out.println("Você digitou zero");
+        for (int x = 0; x <= num2; x++) {
+            if (x > 0) {
+                System.out.println(x + " é positivo");
+            } else if (x < 0) {
+                System.out.println(x + " é negativo");
+            } else {
+                System.out.println(x + " é zero");
+            }
         }
     }
 }
