@@ -1,28 +1,29 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class DesafioSeis {
     public static void main(String[] args) {
-        int[] values = {1, -2, 3, -4, 5, -6, 7, -8, 9, -10};
-        int positivo = 0;
-        int negativo = 0;
-        int par = 0;
-        int impar = 0;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Whole Values Table:");
-        for (int value : values) {
-            System.out.println(value);
-            if (value > 0) {
-                positivo++;
-            } else if (value < 0) {
-                negativo++;
-            }if (par >0){
-                par++;
-            } else if (impar <0) {
-                impar--;
+        System.out.println("Digite um numero par ou impar:");
+        int num = scanner.nextInt();
+
+        for (int x = 0; x <= num; x++) {
+            if (x % 2 == 0) {
+                System.out.println(x + " é par");
+            } else {
+                System.out.println(x + " é impar");
             }
         }
 
-        System.out.println("Positivo: " + positivo);
-        System.out.println("Negativo: " + negativo);
+        System.out.println("Digite um numero positivo ou negativo:");
+        int num2 = scanner.nextInt();
+
+        if (num2 > 0) {
+            System.out.println(num2 + " é positivo");
+        } else if (num2 < 0) {
+            System.out.println(num2 + " é negativo");
+        } else {
+            System.out.println("Você digitou zero");
+        }
     }
 }
