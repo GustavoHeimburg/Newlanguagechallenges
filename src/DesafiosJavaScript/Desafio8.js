@@ -22,6 +22,13 @@ desafio8 = () => {
     if (tipoEstudante.toLowerCase() == 's') {
         valorDescontado *= 0.5;
     }
+var num
+    prompt('digite 1 para ficar no programa e 2 para sair!')
+    if (num == 1){
+        prompt("Voce permeneceu no programa")
+    }else{
+        prompt("Voce saiu" + num ==2)
+    }
 
     alert(`O valor original do ingresso é R$ ${valorIngresso.toFixed(2)}, e o valor com desconto é R$ ${valorDescontado.toFixed(2)}.`);
 }
