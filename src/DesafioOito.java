@@ -11,6 +11,7 @@ public class DesafioOito {
 
         System.out.println("Digite sua idade:");
         int idade = scanner.nextInt();
+        System.out.println("Voce tem " + idade + " anos de idade");
         scanner.nextLine();
         while (num == 1) {
             System.out.println("Você é um estudante de Python? Digite 1 para Sim e 2 para Não:");
@@ -42,7 +43,7 @@ public class DesafioOito {
                 System.out.println("Você é menor de idade, nao pode comprar o ingresso. a festa e permitida apenas para maiores de 18 anos.");
             }
 
-            System.out.println("Digite 1 para sair do programa e 2 para permanecer");
+            System.out.println("Digite 1 para permanecer no programa e 2 para sair!");
             num = scanner.nextInt();
 
             if (num == 1) {
