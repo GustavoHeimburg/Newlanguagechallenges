@@ -1,0 +1,15 @@
+body{
+    background-color: lightsteelblue;
+}
+
+button{
+    font-size: 16px;
+    margin: 5px;
+    background-color: chocolate;
+    color: white;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: coral;
+}
