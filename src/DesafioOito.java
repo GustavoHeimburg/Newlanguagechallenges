@@ -27,8 +27,8 @@ public class DesafioOito {
         } else if (entrada == 2) {
             valorEntrada = 50;
             if (estudante == 1) {
-                valorEntrada *= 0.9;
-                System.out.println("Parabéns! Você é um estudante de Python, você ganhou 10% de desconto na entrada VIP.");
+                valorEntrada *= 0.50;
+                System.out.println("Parabéns! Você é um estudante de Python, você ganhou 50% de desconto na entrada VIP.");
             }
             System.out.println("Sua entrada VIP é R$" + valorEntrada);
         } else {
