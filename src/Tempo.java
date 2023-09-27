@@ -7,7 +7,10 @@ public class Tempo {
         System.out.println("Digite algo: ");
         String input = scanner.nextLine();
 
-        System.out.println("Não tenho tempo para nada!");
+        if (input.equalsIgnoreCase("amanda")) {
+            System.out.println("Não tenho tempo para nada!");
+        } else {
+            System.out.println("Sou uma pessoa normal que não reclamo de tempo e da vida");
+        }
     }
 }
-
