@@ -10,11 +10,11 @@ public class AulaUm {
         String nome = var.nextLine();
         System.out.println("Seja bem vindo " +nome);
 
-        System.out.println("Digite a opcao:");
-        System.out.println("1-Adicao \n 2-Subtracao");
-
         System.out.println("Qual é a sua idade?");
         int idade = var.nextInt();
+
+        System.out.println("Digite a opcao:");
+        System.out.println("1-Adicao \n2-Subtracao \n3-Multiplicacao");
 
         int opcao = var.nextInt();
         var.nextLine();
@@ -27,16 +27,16 @@ public class AulaUm {
         float num2 = var.nextFloat();
         var.nextLine();
 
-
-
         if (idade >=18){
-            System.out.println("Voce é maior de idade e tem " +idade+ " anos de idade");
+            System.out.println("Voce é maior de idade, com " +idade+ " anos");
         }else {
-            System.out.println("Voce e menor de idade, com " +idade+ " anos. Apenas maiores de 18 anos podem participar");
+            System.out.println("Voce e menor de idade, com " +idade+ " anos");
         }if (opcao == 1){
-            System.out.println("Result. soma" + (num1 + num2));
+            System.out.println("Resultado da sua soma: " + (num1 + num2));
         } else if (opcao == 2) {
-            System.out.println("Result. soma" + (num1 + num2));
+            System.out.println("Resultado da sua soma: " + (num1 - num2));
+        } else if (opcao == 3) {
+            System.out.println("Resultado da sua soma: " + (num1 * num2));
         }
         int operacao = 2;
         switch (operacao){
