@@ -1,7 +1,7 @@
 package CursoJava;
 
 import java.util.Scanner;
-
+//TODA DOCUMENTAÇÃO DE APRENDIZADO JAVA SERA ANOTADO NO CODIGO
 public class AulaUm {
     public static void main(String[] args) {
         Scanner var = new Scanner(System.in);
