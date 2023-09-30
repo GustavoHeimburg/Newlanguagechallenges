@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class User {
 
+
         int id;
         String nome;
         float salario;
@@ -39,4 +40,3 @@ public class User {
         }
     }
 
-}
