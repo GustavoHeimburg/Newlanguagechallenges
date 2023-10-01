@@ -82,7 +82,6 @@ public class BirdFlipGame extends JPanel implements ActionListener, KeyListener 
         }
 
         repaint();
-        requestFocusInWindow();
     }
 
     @Override
