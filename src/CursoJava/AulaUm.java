@@ -38,14 +38,7 @@ public class AulaUm {
         } else if (opcao == 3) {
             System.out.println("Resultado da sua soma: " + (num1 * num2));
         }
-        int operacao = 2;
-        switch (operacao){
-            case '+':
-                System.out.println("Operação de adicao");
-                break;
-            case '-':
-                System.out.println("Opcao de subtracao");
+
         }
     }
 
-}
