@@ -37,7 +37,9 @@ public class AulaUm {
             System.out.println("Resultado da sua soma: " + (num1 - num2));
         } else if (opcao == 3) {
             System.out.println("Resultado da sua soma: " + (num1 * num2));
-        }
+        }else{
+         system.out.println("Digite algo valido");
+}
 
         }
     }
