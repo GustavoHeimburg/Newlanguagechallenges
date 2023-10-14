@@ -3,8 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.1.3/css/bootstrap.min.css">
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">portfólio Pessoal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Breve explicação<span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre-mim.html">Sobre mim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main role="main">
 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide img-site"  src="image/coffee.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1>Gostos pessoais</h1>
+                        <p>Eu adoro café, mas um café com gosto especifico, café coado e sem leite, pra ficar com autas doses de cafeina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide img-site" src="image/offroad.jpg" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text">
+                        <h1>Robbies</h1>
+                        <p>Em tempos vagos eu adoro Jogar jogos online ou offline, esse e meu descanso mental...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide img-site" src="image/road.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1>Tempo corrido...</h1>
+                        <p>O tempo corre muito rapido, temos que fazer o que desejamos no momento, se diexarmos para o amanha pode ser tarde</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Voltar</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    </div>
+    <aside class="col-md-12 blog-sidebar">
+        <div class="p-3 mb-3 bg-light rounded">
+            <h4 class="font-italic">Sobre</h4>
+            <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        </div>
+
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">Tenho 16 anos de idade e gosto de variar meus conhecimentos, claro, na area de TI</h1>
+            <p class="lead">Eu comecei a me interresar por programação e tecnologias a muito tempo, quando crianca eu pegava placas de telefone e de outros tipos e ficava admirando e entendendo</p>
+            <p class="lead">
+                <a href="index.html" class="btn btn-lg btn-success">Saiba mais</a>
+            </p>
+
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="rounded-circle" src="image/Need.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Titulo 01</h2>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><button type="button" class="btn btn-warning"data-toggle="modal" data-target="#maisInformacao    ">Mais informações
+                        </button></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded-circle" src="image/Need.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Titulo 01</h2>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="index.html" class="btn btn-success">Acesse o link</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded-circle" src="image/Need.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Titulo 01</h2>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="index.html" class="btn btn-warning">Acesse o link</a></p>
+                    </div>
+                </div>
+        </main>
+        <div class="container marketing">
+            <footer class="container">
+                <p class="float-right btn btn-success"><a href="#">Voltar ao topo</a></p>
+                <p>
+                    Desenvolvido por Gustavo H. Pereira
+                    <a href="https://github.com/GustavoHeimburg">Acesse este repositorio</a>
+                    <a href="https://github.com/GustavoHeimburg/SitePessoalFinal">e tenha acesso ao conteudo</a>
+                </p>
+            </footer>
+
+    <script src="index.js"></script>
+<script src="bootstrap-4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
