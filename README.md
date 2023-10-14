@@ -15,6 +15,9 @@ Repositório para estudos e exercícios em Java e outras linguagens
   <div style="display: inline_block">
     <img align="center" alt="java" src="https://img.shields.io/badge/NVIDIA-GTX1650-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   </div>
+
+***
+
 <a href="https://github.com/GustavoHeimburg">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoHeimburg&layout=compact&show_icons=true&theme=onedark"width="280" />
 </a>
