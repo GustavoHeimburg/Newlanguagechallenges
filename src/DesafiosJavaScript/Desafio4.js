@@ -1,15 +1,9 @@
 desafio4 = ()=> {
-    var notaA = prompt('Digite sua nota:');
-    var notaB = prompt('Digite sua nota:');
-    var notaC = prompt('Digite sua nota:');
+    var notaA = parseFloat(prompt('Digite sua primeira nota:'));
+    var notaB = parseFloat(prompt('Digite sua segunda nota:'));
+    var notaC = parseFloat(prompt('Digite sua terceira nota:'));
 
-    notaAtotal = notaA * 0.2;
+    var media = (notaA + notaB + notaC) / 3;
 
-    notaBtotal = notaB * 0.33;
-
-    notaCtotal = notaC * 0.5;
-
-    media = notaAtotal + notaBtotal + notaCtotal;
-
-    alert("Sua Média Foi " + media + " ,Parabéns.");
+    alert("Sua Média Foi " + media.toFixed(2) + " ,Parabéns.");
 }

@@ -7,12 +7,12 @@ public class DesafioUm {
         Scanner scanner = new Scanner(System.in);
 
         double total = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("Digite a nota " + (i + 1));
             double nota = scanner.nextDouble();
             total += nota * 2;
         }
-            double media = total / 10;
+            double media = total / 3;
 
         System.out.println("A media do aluno é " +media);
 
